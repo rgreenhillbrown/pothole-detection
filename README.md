@@ -1,7 +1,7 @@
 
 # Pothole Detection with YOLOv8
 
-Detect potholes from cars/trucks using YOLOv8. This project utilizes the power of YOLOv8, an advanced object detection algorithm, to identify potholes on road surfaces. Our model is trained to recognize various sizes and shapes of potholes, providing an essential tool for road maintenance and safety measures.
+This project is a work in progress with the goal of detecting potholes using cameras mounted in cars/trucks using YOLOv8. This project utilises a YOLOv8 model trained extensively on a dataset containing a variety of images of potholes. The idea of the project is to assist in documenting potholes in local government areas. As it is a work in progress, the ability to log locations and other features has not yet been added. 
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ For real-time pothole detection:
 python detect.py --weights last.pt --img 640 --conf 0.4 --source 0  # for webcam
 ```
 
-For YouTube detection:
+For a YouTube video/stream:
 
 ```
 python detect.py --weights last.pt --img 640 --conf 0.4 --source "https://youtube.com/your-url-here"
