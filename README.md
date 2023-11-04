@@ -80,7 +80,7 @@ Modify the `hyp.yaml` to tweak hyperparameters for training.
 
 Here is an example of the pothole detection in action:
 
-![Pothole Detection Example](detected_frames/pothole_detected_000019.jpg)
+![Pothole Detection Example](images/pothole_detected_000019.jpg)
 
 ## License
 
