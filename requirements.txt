@@ -1,0 +1,4 @@
+opencv_python==4.8.0.76
+torch==2.0.1
+ultralytics==8.0.155
+yt_dlp==2023.10.13
